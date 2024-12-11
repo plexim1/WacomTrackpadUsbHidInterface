@@ -1,0 +1,14 @@
+[Unit]
+Description=Mouse Controller Service
+After=network.target
+
+[Service]
+ExecStart=chrt -f 99 /usr/bin/python3 /home/kim/mouse.py
+Restart=always
+WorkingDirectory=/home/kim
+StandardOutput=inherit
+StandardError=inherit
+
+[Install]
+WantedBy=multi-user.target
+
