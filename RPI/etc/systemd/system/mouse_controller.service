@@ -3,9 +3,9 @@ Description=Mouse Controller Service
 After=network.target
 
 [Service]
-ExecStart=chrt -f 99 /usr/bin/python3 /home/kim/mouse.py
+ExecStart=chrt -f 99 /usr/bin/python3 /opt/mouse.py
 Restart=always
-WorkingDirectory=/home/kim
+WorkingDirectory=/opt
 StandardOutput=inherit
 StandardError=inherit
 

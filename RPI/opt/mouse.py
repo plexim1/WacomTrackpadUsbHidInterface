@@ -23,7 +23,7 @@ def find_device_by_name(name):
     return None
 
 # Detect the Wacom Intuos Pro M Finger device
-device_name = "Wacom Intuos Pro M Finger"
+device_name = "Wacom Intuos Pro M Finger" # Run evtest to find your device name
 input_device = find_device_by_name(device_name)
 
 if not input_device:
