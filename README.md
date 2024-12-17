@@ -31,3 +31,22 @@ The final product will consist of:
 
     Power Supply:
     The Pico can remain connected to the computer for power and HID functionality.
+
+
+# How to install
+
+## Raspberry Pi Pico
+- Install CircuitPython
+- Copy the files from ./PICO
+
+## Raspberry Pi
+- Install Raspberry Pi OS Lite
+- Copy content of ./RPI to /
+- run /opt/prereqs.sh
+
+## What's remaining
+- Connect the boards together as explained over
+- Connect the Pico with USB to your computer
+- Connect Wacom tablet to the Raspberry Pi
+- Power the Raspberry Pi
+Everything should start up and the script should recognize the Wacom device automatically. You can now use the Wacom tablet as a trackpad utilising generic HID drivers on your Windows computer.
