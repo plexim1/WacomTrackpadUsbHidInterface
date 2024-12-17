@@ -50,3 +50,7 @@ The final product will consist of:
 - Connect Wacom tablet to the Raspberry Pi
 - Power the Raspberry Pi
 Everything should start up and the script should recognize the Wacom device automatically. You can now use the Wacom tablet as a trackpad utilising generic HID drivers on your Windows computer.
+
+![UART wiring](./images/hw2.jpg)
+
+![Complete setup](./images/hw1.jpg)
